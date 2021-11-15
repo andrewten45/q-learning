@@ -1,4 +1,4 @@
-# Andrew's code for Q-Learning Model, built from scratch
+# Andrew Tennant - code for Q-Learning Model
 import numpy as np
 
 # This is a 4x4 Maze using Machine States, in the form of unique letters
@@ -23,3 +23,6 @@ B = np.array([1, 2, 3, 4, 5, 6,
               25, 26, 27, 28, 29, 30,
               31, 32, 33, 34, 35, 36])
 print("Locations: ", B)
+
+# AI, using Q learning, could conceivably navigate the maze
+# using a "Q Value"
